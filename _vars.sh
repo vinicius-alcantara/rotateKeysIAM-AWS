@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AWS_PROFILE="default";
-THRESHOLD_MAX_DAYS=0;
+THRESHOLD_MAX_DAYS=90;
 CURRENT_DATE=$(date +%Y-%m-%d);
 REPORT_DIR=$(pwd)/reports;
 REPORT_FILE="report";
