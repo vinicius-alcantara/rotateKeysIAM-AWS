@@ -1,0 +1,9 @@
+From: vinicius.alcantara2023@outlook.com
+To: 
+Subject: ATENÇÃO: ROTACIONAMENTO DE CHAVE AWS
+
+Olá,
+
+Foi identificado que sua chave AKIA3HUCJYL3TEZD5XGC tem idade maior ou igual a 90 dias. Sua chave foi inativada e será excluída permanentemente em até 7 dias.
+
+

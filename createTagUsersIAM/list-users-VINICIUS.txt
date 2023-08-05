@@ -1,0 +1,8 @@
+alan
+ansible
+jenkins
+joao
+junior
+marcus
+terraform
+vinicius
