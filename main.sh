@@ -23,7 +23,7 @@ do
 
 	if [ "$DIFFERENCE_IN_DAYS" -ge "$THRESHOLD_MAX_DAYS" ] && [ "$KEY_STATUS" == "Active" ];
 	then
-	    echo "O usuário $USER_NAME possui uma única access key $CURRENT_ACCESS_KEY_ID com idade maior ou igual a $DIFFERENCE_IN_DAYS dias e será rotacionada!"; #DEBUG
+	    #echo "O usuário $USER_NAME possui uma única access key $CURRENT_ACCESS_KEY_ID com idade maior ou igual a $DIFFERENCE_IN_DAYS dias e será rotacionada!"; #DEBUG
 	    deactivate_old_keys;
 	    configure_date_schedule;
 	    delete_old_keys_schedule;
@@ -54,7 +54,7 @@ do
 
 	if [ "$DIFFERENCE_IN_DAYS_KEY1" -ge "$THRESHOLD_MAX_DAYS" ] && [ "$KEY1_STATUS" == "Active" ];
 	then
-	    echo "O usuário $USER_NAME possui a access key1 $CURRENT_ACCESS_KEY1_ID com idade maior ou igual a $DIFFERENCE_IN_DAYS_KEY1 dias e será rotacionada!";
+	    #echo "O usuário $USER_NAME possui a access key1 $CURRENT_ACCESS_KEY1_ID com idade maior ou igual a $DIFFERENCE_IN_DAYS_KEY1 dias e será rotacionada!"; #DEBUG
 	    deactivate_old_if_2keys;
 	    configure_date_schedule;
 	    delete_old_keys_schedule_first_key;
@@ -66,7 +66,7 @@ do
 
 	if [ "$DIFFERENCE_IN_DAYS_KEY2" -ge "$THRESHOLD_MAX_DAYS" ] && [ "$KEY2_STATUS" == "Active" ];
         then
-	    echo "O usuário $USER_NAME possui a access key2 $CURRENT_ACCESS_KEY2_ID com idade maior ou igual a $DIFFERENCE_IN_DAYS_KEY2 dias e será rotacionada!";
+	    #echo "O usuário $USER_NAME possui a access key2 $CURRENT_ACCESS_KEY2_ID com idade maior ou igual a $DIFFERENCE_IN_DAYS_KEY2 dias e será rotacionada!"; #DEBUG
             deactivate_old_if_2keys;
 	    configure_date_schedule;
             delete_old_keys_schedule_second_key;
